@@ -7,7 +7,7 @@ The **purpose** is to create an interactive dashboard that displays data and cha
 The **resources** and tools to achieve our goal were **JavaScript, Visual Studio Code, HTML, Plotly.js, D3.js, and Bootstrap**.
 
 ## Website:
-Here is the webpage link: [GitHub Pages] https://cielocris.github.io/plotly_deployment/
+Here is the webpage link: [GitHub Pages] (https://cielocris.github.io/plotly_deployment/)
 
 ## Results
 The following screenshots shows the dashboard's charts:
@@ -22,4 +22,6 @@ The following screenshots shows the dashboard's charts:
 
 #### Gauge chart
 ![Alt text](/Resources/gauge.png "imagen4")
+
+[https://cielocris.github.io/plotly_deployment/]
 
