@@ -23,6 +23,6 @@ The following screenshots shows the dashboard's charts:
 #### Gauge chart
 ![Alt text](/Resources/gauge.png "imagen4")
 
-#### Visit GitHub Pages:
-https://cielocris.github.io/plotly_deployment/
+#### Visit GitHub Page:
+[https://cielocris.github.io/plotly_deployment/](https://cielocris.github.io/plotly_deployment/)
 
