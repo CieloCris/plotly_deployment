@@ -1,4 +1,4 @@
-# Belly Button Biodiversity Analysis
+# [Belly Button Biodiversity Analysis](https://cielocris.github.io/plotly_deployment/)
 
 ## Overview:
 The **purpose** was to create an interactive dashboard that displays data and charts about the belly button's bacterias.
