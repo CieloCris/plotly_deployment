@@ -10,24 +10,22 @@
       rel="stylesheet" 
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       />
-  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
-<body>
+<body style="background-color:lavenderblush;">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p style="color:black"><b>Use the interactive charts below to explore the dataset</b></p>
+      <div class="col-md-12 jumbotron text-center", style="background-image: url(https://img.wonderhowto.com/img/62/57/63620176476774/0/invisiverse.1280x600.jpg);"; height: 400px>
+        <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
+        <p style="color:white"><b>Use the interactive charts below to explore the dataset</b></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
-          <h5>Start by selecting a Test Subject ID Number from the dropdown menu below. All of the information and graphs will
-            automatically update to reflect any changes.
-          </h5>
-          <h5 style="color: black;">Test Subject ID No.:</h5>
+        <div class="well", style="background-color: #337ab7;">
+          <h4 style="color: white;"><b>Instructions:</b> Explore the Belly Buttom Biodiversity Dashboard by selecting a test subject ID, and data and graphs will automatically be displayed:
+          </h4>
+          <h4 style="color: white;"><b>Test Subject ID No:</b></h4>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
@@ -36,23 +34,24 @@
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
-        <div>
-          <h5 style="color: gray;">An Operational Taxonomic Unit (<b>OTU</b>) refers to clusters of organisms, grouped by DNA
-          sequence similarity of a specific taxonomic maker gene.</h5>
-          <h5 style="color: gray;"><b>Hint!</b> Hovering over the data points on the graphs will reveal extra information.</h5>
-        </div>
       </div>
-     
       <div class="col-md-5">
         <div id="bar"></div>
+          <h5 style="color: rgb(26, 4, 106);" align='center'>Figure 1.- This bar chart presents the Top 10 Bacteria Cultures found per test subject. 
+          </h5>
+          <h5 style="color:rgb(26, 4, 106);" align='center'>Note: An OTU (Operational Taxonomic Unit) is a group of organisms that shares similarities.</h5>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
+        <div id="gauge" align='center'></div>
+          <h5 style="color: rgb(26, 4, 106);" align='center'>Figure 2.- This gauge chart displays the belly button washing frequency per week.
+          </h5>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble" align='center'></div>
+          <h5 style="color: rgb(26, 4, 106);" align='center'>Figure 3.- This bubble chart shows the bacteria culture per sample. You can hover over the data points to discover extra data.
+          </h5>
       </div>
     </div>
   </div>
