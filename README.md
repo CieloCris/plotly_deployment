@@ -1,7 +1,7 @@
 # Belly Button Biodiversity Analysis
 
 ## Overview:
-The **purpose** is to create an interactive dashboard that displays data and charts about the belly button's bacterias.
+The **purpose** was to create an interactive dashboard that displays data and charts about the belly button's bacterias.
 
 ## Resources:
 The **resources** and tools to achieve our goal were **JavaScript, Visual Studio Code, HTML, Plotly.js, D3.js, and Bootstrap**.
