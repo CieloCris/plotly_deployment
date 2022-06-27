@@ -7,7 +7,7 @@ The **purpose** was to create an interactive dashboard that displays data and ch
 The **resources** and tools to achieve our goal were **JavaScript, Visual Studio Code, HTML, Plotly.js, D3.js, and Bootstrap**.
 
 ## Website:
-Click [Here](https://cielocris.github.io/plotly_deployment/) to visit the webpage
+Click [Here](https://cielocris.github.io/plotly_deployment/) to visit the Webpage.
 
 ## Results
 The following screenshots shows the dashboard's charts:
