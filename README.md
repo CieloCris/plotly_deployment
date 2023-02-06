@@ -26,3 +26,4 @@ The following screenshots shows the dashboard's charts:
 #### Visit GitHub Page:
 [https://cielocris.github.io/plotly_deployment/](https://cielocris.github.io/plotly_deployment/)
 
+
